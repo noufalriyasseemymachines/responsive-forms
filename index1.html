@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index1.css">
+    <title>Responsive Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-title">Registration Form</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="Enter Full Name" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="userName">User Name</label>
+                    <input type="text" id="userName" placeholder="Enter User Name" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Email" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" placeholder="Enter Phone Number" pattern="[789][0-9]{9}" title="Should start with 7,8,9 and contain 10 numbers" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="cPassword">Confirm Password</label>
+                    <input type="password" id="cPassword" placeholder="Confirm Password" required>
+                </div>
+            </div>
+            <div class="submit-btn">
+                <input type="submit">
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
